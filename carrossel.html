@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   <div class="carousel">
+     <button class="carousel__button carousel__button--left is-hidden">
+        <img src="assets/seta-esquerda.svg" alt="">
+     </button>
+     <div class="carousel__track-container">
+       <ul class="carousel__track">
+         <li class="carousel__slide current-slide">
+           <img class="carousel__images" src="assets/eva.jpg" alt="">
+         </li> 
+         <li class="carousel__slide">
+           <img class="carousel__images" src="assets/op.png" alt="">
+         </li>
+         <li class="carousel__slide">
+           <img class="carousel__images" src="assets/fma.jpg" alt="">
+         </li>
+       </ul>
+     </div>
+     <button class="carousel__button carousel__button--right ">
+      <img src="assets/seta-direita.svg" alt="">
+     </button>
+
+     <div class="carousel__nav">
+       <button class="carousel__indicator current-slide"></button>
+       <button class="carousel__indicator"></button>
+       <button class="carousel__indicator"></button>
+     </div>
+   </div>
+
+   <script src="js/carousel.js"></script>
+</body>
+</html>
