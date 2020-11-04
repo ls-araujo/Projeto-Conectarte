@@ -40,6 +40,7 @@
   background: transparent;
   border: 0;
   cursor: pointer;
+  outline: none;
 }
 
 .carousel__button--left{
@@ -47,11 +48,11 @@
 }
 
 .carousel__button--right {
-  right: -45px;
+  right: -45px; 
 }
 
 .carousel__button img{
-  width: 25px;
+  width: 35px;
 }
 
 .carousel__nav {
@@ -68,6 +69,7 @@
   background: rgba(220, 126, 106, .4);
   margin: 0 12px;
   cursor: pointer;
+  outline: none;
 }
 
 .carousel__indicator.current-slide {
