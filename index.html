@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrossel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>Conheça o Conectarte</h1>
+                    <p>O Conectarte nasceu com missão de juntar e potencializar negócios locais. Afetados pela pandemia da Covid-19.</p>
+                    <div class="bt">
+                        <button>Saiba Mais</button>
+                    </div>  
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>Artesões</h1>
+                    <p>Venham fazer parte do Conectarte e compartilhe sua arte conosco.</p>
+                    <div class="bt">
+                        <button>Faça parte</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>Os Artistas</h1>
+                    <p>Conheça e apoie os artistas do Brasil. </p>
+                    <div class="bt">
+                        <button>Conheça mais </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="arrows prev" onclick="plusslide(-1)">
+            <span ><i class="fa fa-angle-left"></i></span>
+        </button>
+        <button class="arrows next" onclick="plusslide(1)">
+            <span><i class="fa fa-angle-right"></i></span>
+        </button>
+
+        <div class="dots">
+            <span onclick="currentslide(1)"></span>
+            <span onclick="currentslide(2)"></span>
+            <span onclick="currentslide(3)"></span>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="/assets/script.js"></script>
+</body>
+</html>
