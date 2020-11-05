@@ -1,0 +1,67 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: right;
+    
+        
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav div {
+    
+    padding-left: 0;
+    width: fit-content;
+    
+}
+
+
+nav ul {
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #647168;
+} 
+
+li{
+    
+    align-items: center;
+    margin: 0;
+    font-size: 22px;
+    padding: 5px;
+       
+}
+
+/* hr{
+    width: 94%;
+    color: darkslategrey;
+} */
+
+hr {
+    display: block;
+    width: 94%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+li a:hover {
+    border-bottom: 2.5px solid #8a513f;
+    border-radius: 15%;
+    
+}

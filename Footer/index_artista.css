@@ -1,0 +1,265 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: #f7efec;
+}
+
+.infos_artist{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 10px;
+}
+
+.perfil_photo{
+    height: 220px;
+    width:7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil_photo img{
+    height: auto;
+    width: auto;
+    border-radius: 100%;
+}
+
+.photo{
+    max-height: 40%;
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+}
+
+.icon{
+    max-height: 38px;
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+}
+
+.perfil_resume{
+    height: auto;
+    width:45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #e0ccc5;
+}
+
+.resume{
+    height: auto;
+    width:98%;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px 10px 0px 0px;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.body_text{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    color: #8a513f;
+    text-align: justify;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 430;
+    color: #47322d;
+    background-color: #da9255;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+.events{
+    height: auto;
+    width:98%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.find{
+    height: auto;
+    width:98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.art_infos{
+    height: 300px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.art{
+    height: 25px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 5px 5px 5px;
+    padding-left: 10px;
+    background-color: #e0ccc5;
+    color: #47322d;
+}
+
+.info{
+    height: 20%;
+    padding: 3px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.text{
+    height: 15px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    flex-direction: column;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 14px;
+    padding-bottom: 3px;
+    color: #47322d;
+    background-color: #da9255;
+    font-weight: 430;
+}
+
+.arts_photos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    padding-bottom: 50px;
+    
+}
+
+.sessao{
+    width: 80%;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sessao img{
+    height: auto;
+    width: auto;
+    max-width: 145px;
+    max-height: 130px;
+}
+
+.images{
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: space;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(247, 230, 230);
+}
+  
+.images img{ 
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+  
+.descricao{
+    background-color: #da9255;
+    color: #e0ccc5;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+.images:hover .descricao { visibility: visible; }
+
+.price{
+  font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #dc7e6a;
+    width: max-content;
+    padding: 1px;
+}
+
+button{
+    width:100px;
+    height: 25px;
+    background-color: #e0ccc5;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #dc7e6a;
+    cursor: pointer;
+}
+
+textarea:focus, input:focus, select:focus, button:focus{
+    outline: 0;
+}
+
+.divisao{
+    width: 75%;
+    height: 1px;
+    background-color: #da9255;
+}
+
+.sessao_total{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e0ccc5;
+}
+
+h4{
+    color: #8a513f;
+    position: relative;
+    top: 18px;
+    text-decoration: underline;
+}
+
