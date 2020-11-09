@@ -13,8 +13,8 @@
 }
 
 .textos {
-    width:100%;
-    margin-right: 20px;
+    width:80%;
+    margin-right: 25px;
 }
 
 h1 {
@@ -32,12 +32,19 @@ h2 {
 
 .imagens {
     padding-right: 50px;
-    display: flex-end;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
 
 .imagens img {
     width: 190px;
     height: 150px;
+}
+
+.img1, .img3 {
+    align-self: flex-end;
 }
 
 .mis-vis-val {
