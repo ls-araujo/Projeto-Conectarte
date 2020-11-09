@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre_nos {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    padding-left: 180px;
+    line-height: 218%;
+}
+
+.textos {
+    width:100%;
+    margin-right: 20px;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+}
+
+.imagens {
+    padding-right: 50px;
+    display: flex-end;
+}
+
+.imagens img {
+    width: 190px;
+    height: 150px;
+}
+
+.mis-vis-val {
+    display: flex-end;
+    align-items: center;
+    justify-content: center;
+    margin-left:180px;
+    margin-bottom: 20px;
+    width: 80%;
+    line-height: 218%;
+    background-color: #FFD8A9;
+}
+
+#visao {
+    margin:0px;
+    width:50%;
+    padding: 30px 30px;
+}
+
+
+#valores {
+    margin:0px;
+    width:50%;
+    padding: 30px 30px;
+}
+
+#missao {
+    width:950px;
+    padding-left: 500px;
+    margin-right: 0px;
+}
+
+.quem-somos {
+    text-align: center;
+    align-items: center;
+}
+
+.bolinhas {
+    display: flex;
+    align-items: center;
+    margin-left:180px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    height: 250px;
+    width:80%;
+    /* border: 1px solid red; */
+}
+
+.bolinhas img {
+    position: relative;
+    margin: 0px;
+    height: 180px;
+    width: 180px;
+    border-radius: 1000000px;
+}
+
+.bolinhas div {
+    position: absolute;
+    margin-left: 230px;
+    align-self: flex-end;
+    height: 250px;
+    width: 650px;
+    background-color: rgba(138,81,63,0.850) ;
+}
+
+#bol1 {
+    margin: 30px;
+}
+
+#bol3 {
+    padding-left:0px
+}
+
+.bolinhas h1 {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin: 30px;
+    width: 300px;
+    font-style: normal;
+}
