@@ -126,3 +126,46 @@ h2 {
     width: 300px;
     font-style: normal;
 }
+
+/* .txt, .bt, .botao {
+    border: 1px solid red;
+} */
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.bt {
+    align-self: center;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    background-color: #DC7E6A;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+        
+}
+
+.head {
+    margin-top: 5px;
+    }
+
+
+.btn {
+    height: 50px;
+    width: 100px;
+    background-color: #8A513F;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #8A513F;
+    font-weight: bold;
+    padding: 10px 25px;
+    cursor: pointer;
+    
+}
