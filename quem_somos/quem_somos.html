@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="index_quemsomos.css">
     <link rel="stylesheet" type="text/css" href="../index_footer.css">
     <link rel="stylesheet" type="text/css" href="../index_navbar.css">
+    <link rel="stylesheet" href="./Slider/lightslider.css">
+    <link rel="stylesheet" href="./Slider/style-2.css">
+    <script src="./Slider/Jquery.js"></script>
+    <script src="./Slider/lightslider.js"></script>
+
+
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -16,15 +22,15 @@
 <body>
     <header>
         <nav class="navbar">
-            <div><a href="index.html"><img src="../assets/logo conectarte.png" alt="Logo" style="height: 100px;"></a>
+            <div><a href="../main/main_page.html"><img src="../assets/logo conectarte.png" alt="Logo" style="height: 100px;"></a>
             </div>
             <ul>
-                <li><a href="about.html">Quem somos</a></li>
-                <li><a href="artists.html">Artistas</a></li>
-                <li><a href="tips.html">Dicas</a></li>
-                <li><a href="contacts.html">Contato</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Faça Parte</a></li>
+                <li><a href="./quem_somos.html">Quem somos</a></li>
+                <li><a href="../artist_page/artist_page.html">Artistas</a></li>
+                <li><a href="#">Dicas</a></li>
+                <li><a href="../contact_us/contact_page.html">Contato</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Faça Parte</a></li>
             </ul>
         </nav>
         <hr>
@@ -70,7 +76,7 @@
             </div>
 
         </div>
-        <div class="quem-somos">
+        <!-- <div class="quem-somos">
             <h1>Quem Somos</h1>
             <div class="bolinhas">
                 <div></div>
@@ -82,14 +88,111 @@
                 </h1>
                 <img src="../assets/pessoa2.jpg" id="bol3">
             </div>
-        </div>
+        </div> -->
+        <section class="slider">
+            <ul id="autoWidth" class="cs-hidden" >
+                <li class="item-a">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="./Slider/Assets/Arthur.png" alt="">
+                        <div class="overlay">
+                            <p class="txt">Estudante de Engenharia Mecânica, assessor no Crea jr-BA, membro de Relações Internacionais na Aiesec. Apaixonado por futebol, conversar e viajar.</p>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <span>Arthur Gonzalez</span>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                <li class="item-b">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="./Slider/Assets/Douglas.png" alt="">
+                        <div class="overlay">
+                            <p class="txt">Engenheiro de produção e filósofo de botequim. Apaixonado por empreendedorismo e gestão. Ainda toco um violão nas horas vagas.</p>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <span>Douglas Rodrigues</span>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                <li class="item-c">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="./Slider/Assets/Emerson.png" alt="">
+                        <div class="overlay">
+                            <p class="txt">Utópico da vida. Cinéfilo de mesa de bar. Amante da bola. Músico frustrado. Sou movido a desafios. Fascinado pelas contradições do dia a dia. Gosto de gente e de estar rodeado por aqueles que me inspiram. Dá pra ser melhor. Sempre dá. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <span>Emerson Magno</span>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                <li class="item-d">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="./Slider/Assets/Gabriela.png" alt="">
+                        <div class="overlay">
+                            <p class="txt">Engenheira civil e de produção que gosta de conhecer a história dos lugares e das pessoas, de compartilhar experiências. Amo viajar e descobrir os encantos de novas culturas.</p>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <span>Gabriela Hammes</span>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                <li class="item-e">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="./Slider/Assets/Isabela.png" alt="">
+                        <div class="overlay">
+                            <p class="txt">Estudante de Engenharia de Produção na UFRJ. Carioca, apaixonada por novos desafios, adora conhecer pessoas, novas culturas e compartilhar experiências.</p>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <span>Isabela Merotto</span>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                <li class="item-f">
+                <div class="box">
+                    <div class="slide-img">
+                        <img src="./Slider/Assets/Tania.png" alt="">
+                        <div class="overlay">
+                            <p class="txt">Engenheira eletricista e bizdev na Cheesecake Labs, apaixonada por tecnologia, inovação e vinho. Bizdev na Cheesecake Labs, gosta de música e da troca de ideias com novas pessoas.</p>
+                        </div>
+                    </div>
+                    <div class="detail-box">
+                        <div class="type">
+                            <span>Tania Nalborczyk </span>
+                        </div>
+                    </div>
+                </div>
+                </li>
+            </ul>
+
+        </section> 
+
         <div class="botao">
-            <div class="txt">
+            <div class="btxt">
                 <h4 class="head">QUER FAZER PARTE?</h4>
                 <h5 class="head">saiba como</h5>
             </div>
             <div class="bt">
-                <button class="btn">ACESSE</button>
+                <button class="btn"> <a href="#!" style="color: #fff;"> ACESSE</a></button>
             </div>
         </div>
 
@@ -139,6 +242,8 @@
             etiam sollicitudin torquent pulvinar, aptent convallis suspendisse leo fames odio lacinia. auctor aenean
             donec sodales senectu</div>
     </footer>
+
+    <script src="./Slider/script.js"></script>
 </body>
 
 </html>

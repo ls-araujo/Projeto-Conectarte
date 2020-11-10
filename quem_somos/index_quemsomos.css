@@ -142,7 +142,7 @@ h2 {
     align-self: center;
 }
 
-.txt {
+.btxt {
     display: flex;
     flex-direction: column;
     background-color: #DC7E6A;
