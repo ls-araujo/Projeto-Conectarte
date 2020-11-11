@@ -4,30 +4,51 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+main{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #f7efec;
+}
+
 .sobre_nos {
     display: flex;
     align-items: center;
-    margin:20px;
-    padding-left: 180px;
-    line-height: 218%;
+    align-content: center;
+    width: 70%;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .textos {
     width:80%;
-    margin-right: 25px;
+    border-radius: 10px;
+    background-color: #dc7f6ab2;
+    padding: 10px;
 }
 
-h1 {
+.nos{
+    color: #47322d;
+    text-align: justify;
+    
+}
+
+h1{
+    color: white;
     text-decoration: underline;
     font-size: 30px;
     font-style: normal;
+    text-align: center;
 }
-
-h2 {
-    color: rgb(128, 128, 128);
+h2{
+    color: white;
     font-size: 20px;
     font-style: normal;
-    text-align: justify;
+    text-align: center;
 }
 
 .imagens {
@@ -48,33 +69,56 @@ h2 {
 }
 
 .mis-vis-val {
-    display: flex-end;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left:180px;
-    margin-bottom: 20px;
-    width: 80%;
+    height: 800px;
     line-height: 218%;
     background-color: #FFD8A9;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    align-self: center;
+    background-image: url("./assets/papeldefundo.jpg");
+    background-attachment: fixed;
+    border-radius: 10px;
 }
 
+
 #visao {
-    margin:0px;
+    margin: 10px;
+    margin-left: 100px;
     width:50%;
     padding: 30px 30px;
+    align-self: flex-start;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
 }
 
 
 #valores {
-    margin:0px;
-    width:50%;
+    margin: 10px;
+    margin-left: 100px;
+    width: 50%;
     padding: 30px 30px;
+    align-self: flex-start;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
+
 }
 
 #missao {
-    width:950px;
-    padding-left: 500px;
-    margin-right: 0px;
+    margin-left: 100px;
+    width:50%;
+    align-self: center;
+    /* height: %; */
+    padding: 30px 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
+    
 }
 
 .quem-somos {
@@ -134,6 +178,7 @@ h2 {
 .botao {
     display: flex;
     flex-direction: row;
+    /* height: 100px; */
     justify-content: center;
     padding: 30px;
 }
@@ -146,9 +191,12 @@ h2 {
     display: flex;
     flex-direction: column;
     background-color: #DC7E6A;
-    height: 50px;
-    width: 180px;
+    height: 70px;
+    width: 240px;
+    font-size: 21px;
     text-align: center;
+    justify-content: center;
+    color: #47322d;
         
 }
 
@@ -158,14 +206,30 @@ h2 {
 
 
 .btn {
-    height: 50px;
+    height: 70px;
+    font-size: 18px;
+    align-content: center;
     width: 100px;
     background-color: #8A513F;
-    color: #ffffff;
+    color: #47322d;
     outline: none;
     border: 1px solid #8A513F;
     font-weight: bold;
-    padding: 10px 25px;
-    cursor: pointer;
-    
+    /* padding: 10px 25px; */
+    cursor: pointer;   
+}
+
+.int{
+    color: #47322d;
+    position: relative;
+    top: 30px;
+
+}
+
+.integrantes{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
