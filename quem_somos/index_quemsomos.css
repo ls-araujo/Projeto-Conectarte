@@ -11,31 +11,33 @@ main{
     display: flex;
     flex-direction: column;
     align-self: center;
-    background-color: #f7efec;
+    /* background-color: #f7efec; */
 }
 
 .sobre_nos {
     display: flex;
     align-items: center;
     align-content: center;
-    width: 70%;
+    width: 75%;
     align-self: center;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-left: 200px;
+    
 }
 
 .textos {
     width:80%;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #dc7f6ab2;
     padding: 10px;
 }
 
-.nos{
+/* .nos{
     color: #47322d;
     text-align: justify;
     
-}
+} */
 
 h1{
     color: white;
@@ -79,9 +81,10 @@ h2{
     display: flex;
     align-items: center;
     align-content: center;
-    width: 70%;
+    width: 100%;
     align-self: center;
-    background-image: url("./assets/papeldefundo.jpg");
+    background-image: url("../assets/papel\ de\ parede.jpg");
+    opacity: 0.6;
     background-attachment: fixed;
     border-radius: 10px;
 }
@@ -89,36 +92,41 @@ h2{
 
 #visao {
     margin: 10px;
-    margin-left: 100px;
+    margin-left: 150px;
     width:50%;
     padding: 30px 30px;
     align-self: flex-start;
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(138,81,63,0.9);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.8);
     border-radius: 15px;
+    
 }
 
 
 #valores {
     margin: 10px;
-    margin-left: 100px;
+    margin-left: 150px;
     width: 50%;
     padding: 30px 30px;
     align-self: flex-start;
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(138,81,63,0.9);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.8);
     border-radius: 15px;
-
+    
+    
 }
 
 #missao {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width:50%;
-    align-self: center;
+    align-self: flex-end;
     /* height: %; */
     padding: 30px 30px;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(138,81,63,0.9);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.8);
     border-radius: 15px;
-    
+    margin-right: 150px;
 }
 
 .quem-somos {
