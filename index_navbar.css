@@ -1,12 +1,13 @@
 .navbar{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     text-align: right;
-        
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
 }
 body{
+    
     margin: 0;
     padding: 0;
 }
@@ -17,16 +18,25 @@ nav div {
     width: fit-content;
 }
 
+div{
+    /* border: red solid 1px; */
+    
+}
+
+#links{
+    width: 50%;
+}
+
 
 nav ul {
     vertical-align: middle;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    font-family: 'Comic Neue', sans-serif;
     display: flex;
-    width: 70%;
 }
+
+
 
 a {
     text-decoration: none;
@@ -42,21 +52,14 @@ li{
        
 }
 
-hr {
-    display: block;
-    width: 94%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-  }
+
 
 li a:hover {
     border-bottom: 2.5px solid #8a513f;
-    border-radius: 15%;
-    
+}
+
+li a:hover {
+    border-bottom: 2.5px solid #8a513f;
 }
 
 img{
