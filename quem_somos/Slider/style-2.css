@@ -93,6 +93,7 @@ body{
     justify-content: center;
 	align-items: center;
 	background-color:#7c564c;
+	border-top: 4px solid #dc7e6a;
 }
 
 .int, .int2{
@@ -141,5 +142,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-bottom: 4px solid #dc7e6a;
 	
 }
