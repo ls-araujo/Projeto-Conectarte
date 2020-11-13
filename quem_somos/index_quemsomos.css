@@ -24,7 +24,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("./assets/Materiais-arte.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./assets/Materiais-arte.jpg);
     margin-bottom: 10px;
     background-attachment: fixed;
     border-bottom: 4px solid #dc7e6a;
