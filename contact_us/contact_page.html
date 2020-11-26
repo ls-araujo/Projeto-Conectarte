@@ -15,18 +15,34 @@
     <main>
         <div class="title">
             <h1>Entre em contato</h1>
+            <br>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in mi suscipit, laoreet orci quis, vehicula lectus. Mauris ante nunc, maximus et ex a, ultricies sagittis purus. Ut elementum a magna eu cursus. Donec id massa et lacus pretium accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas vulputate placerat libero in blandit. Maecenas viverra, enim non viverra rhoncus, velit dolor ultricies orci, vitae molestie enim sem eu nisi.</p>
         </div>
 
-        <form class="textboxers">
-                <input class="nome"  type="text" name="nome" size="40" placeholder="Nome">
-                <input class="email" type="text" name="email" size="40" placeholder="Email">
-                <input class="assunto" type="text" name="assunto" size="40" placeholder="Assunto">
-                <input class="mensagem" type="text" name="mensagem" size="40" placeholder="Mensagem">
-                <div class="botao">
-                    <p>Agradecemos o contato</p>
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
+        <form class="form" action="" method="">
+            <p class="nome"></p>
+
+            <p class="nome">
+                <input type="text" name="nome" placeholder="Nome" required="required" >
+            </p>
+            <p class="email">
+                <input type="text" name="email" placeholder="E-mail" required="required" >
+            </p>
+            <p class="assunto">
+                <input type="text" name="assunto" placeholder="Assunto" required="required" >
+            </p>
+            <p class="mensagem">
+                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+            </p>
+                
+
+            <div class="button_and_text">
+                <p>A ConectArt agradece seu contato</p>
+                <p class="enviar">
+                    <input type="submit" name="enviar" value="Enviar">
+                </p>
+            </div>
+        </form>
     </main>
 
     <footer><div id="footer"></div></footer>

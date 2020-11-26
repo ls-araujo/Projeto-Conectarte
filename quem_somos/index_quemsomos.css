@@ -14,7 +14,6 @@ main{
     display: flex;
     flex-direction: column;
     align-self: center;
-    /* background-color: #f7efec; */
 }
 
 .sobre_nos_container {
@@ -46,6 +45,7 @@ main{
 
 }
 
+<<<<<<< HEAD
 .sobre_nos_hr {
     margin-top: 9px;
     margin-bottom: 25px;
@@ -74,6 +74,9 @@ main{
 
 
 /* h1{
+=======
+h1{
+>>>>>>> 7a60bc7 (mudanca na pagina do artista)
     color: white;
     text-decoration: underline;
     font-size: 30px;
@@ -105,22 +108,20 @@ h2{
 
 /* #objetivos_ONU{
     height: 620px;
-    width: 70%;
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    align-content: center;
     align-self: center;
+    justify-content: center;
+    
     margin: 50px 0px 50px 0px;
 } */
 
 .com_numero{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     justify-items: center;
-    height: 150px;
-    width: 620px;
-    /* position: relative; */
-    /* left: 120px; */
+    height: 140px;
+    width: 500px;
     color: white;
 }
 
@@ -130,47 +131,96 @@ h2{
 
 #objetivos_ONU img{
     height: 180px;
-    width: 180;
+    width: 180px;
     bottom: 5px;
 } */
 
+<<<<<<< HEAD
 /* .objt{
     height: 200px;
     width: 90%;
+=======
+#objs{
+    width: 650px;
+    height: 550px;
+    display: inline;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+
+.objt{
+    height: 180px;
+    width: 650px;
+>>>>>>> 7a60bc7 (mudanca na pagina do artista)
     font-size: 35px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
+.titulo_e_subtitulo_ODS{
+    /* border: 1px solid green; */
+    width: 380px;
+    display: inline;
+    
+}
+
+#descricao_ODS{
+    width: 35%;
+    height: 500px;
+    display: inline;
+    text-align: justify;
+    padding: 15px;
+    align-self: center;
+}
+
+#titulo_descricao{
+    font-size: 60px;
+}
+#subtitulo_descricao{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+}
+
 .titulo{
+    /* border: blueviolet 1px solid; */
     display: flex;
-    width: 500px;
-    height: 90px;
+    width: 380px;
+    height: 70px;
+    font-size: 28px;
     justify-items: center;
 } */
 
+<<<<<<< HEAD
 /* .subtitulo{
+=======
+.subtitulo{
+    /* border: blueviolet 1px solid; */
+>>>>>>> 7a60bc7 (mudanca na pagina do artista)
     display: flex;
-    width: 500px;
+    width: 280px;
     justify-items: center;  
-    font-size: 18px;
-    height: 50px;
+    font-size: 15px;
+    height: 60px;
 }
 
 #ONU8{
     background-color: #8f1838;
-    display: flex;
-    margin: auto;
-    margin-bottom: 0px;
 }
 #ONU10{
     background-color: #dd1367;
 }
 #ONU12{
     background-color: #c9992d;
+<<<<<<< HEAD
     margin-left: auto;
 } */
+=======
+
+}
+>>>>>>> 7a60bc7 (mudanca na pagina do artista)
 
 
 
@@ -208,7 +258,6 @@ h2{
     height: 100%;
     width: 40%;
     padding: 0px;
-
 }
 
 
