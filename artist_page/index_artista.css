@@ -7,7 +7,7 @@
 
 .infos_artist{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 450px;
     padding-top: 10px;
     background-color: #e0ccc5;
@@ -16,6 +16,7 @@
 .profile{
     width: 400px;
     margin: auto;
+    margin-left: 120px;
     background: #f7efec;
     height: 400px;
 }
@@ -26,7 +27,7 @@
 }
 
 .infos{
-    color: #4b4fe2;
+    color: #da9255;;
     margin-right: 16px;
     padding: 20px;
     border-bottom: 4px solid;
@@ -62,24 +63,21 @@ h2{
 
 .perfil_resume{
     margin: auto;
-    height:400px;
-    width:70%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    height: 400px;
+    margin-right: 120px;
+    width: 55vw;
     align-items: center;
     text-align: justify;
-    background-color: #e0ccc5;
 }
 
 .resume{
-    width: auto;
+    width:55vw;
+    height: 150px;
     margin: auto;
     display: flex;
     justify-content: center; 
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .body_text{
@@ -88,6 +86,8 @@ h2{
     justify-content: left;
     color: #8a513f;
     text-align: justify;
+    padding: 5px 20px;
+    background: #f7efec;
 }
 
 .title{
@@ -100,48 +100,45 @@ h2{
 }
 
 .events{
+    width:55vw;
     margin: auto;
     height: auto;
     display: flex;
     justify-content: center; 
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .find{
+    width:55vw;
     margin: auto;
     height: auto;
     display: flex;
     justify-content: center; 
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .art_infos{
-    height: 75px;
-    width: 600px;
+    height: 50px;
+    width: 55vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .art{
-    height: 20px;
-    width: 100%;
+    height: 40px;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
-    background-color: #e0ccc5;
     color: #47322d;
     font-size: 20px;
     font-weight: 500;
 }
 
 .info{
-    height: 30px;
-    /* padding: 3px; */
+    height:45px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -157,6 +154,7 @@ h2{
     padding-bottom: 3px;
     color: white;
     font-weight: 420;
+    border-bottom: white;
 }
 
 
