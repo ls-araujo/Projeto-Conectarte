@@ -65,7 +65,7 @@
 }
 
 .slide-data h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: Megrim;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 40px;
@@ -75,7 +75,7 @@
 }
 
 .slide-data p {
-    font-family: 'Raleway', sans-serif;
+    font-family: Montserrat;
     font-weight: bold 600;
     margin-bottom: 10px;
     margin-right: 300px;
@@ -83,7 +83,7 @@
 }
 
 .slide-data button {
-    font-family: 'Raleway', sans-serif;
+    font-family: Montserrat;
     background: none;
     outline: none;
     border: 1px solid #DC7E6A;

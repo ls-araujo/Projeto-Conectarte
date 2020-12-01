@@ -35,16 +35,18 @@
     padding: 10px;
     height: 150px;
     width: 600px;
+    font-family: Montserrat;
 }
 
 .bt-home {
     height: 30px;
     margin-bottom: 40px;
-    margin-right: 30px;
+    margin-left: 10px;
     color: #DC7E6A;
     text-decoration: underline;
     display: flex;
     text-align: justify;
+    font-family: Montserrat;
 
 }
 
