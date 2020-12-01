@@ -33,7 +33,6 @@ body{
 	align-items: center;
 	padding: 10px 20px;
 	box-sizing: border-box;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .type{
 	display: flex;
@@ -53,10 +52,10 @@ body{
 .overlay{
 	position: absolute;
 	left: 50%;
-	top: 51.6%;
+	top: 50.2%;
 	transform: translate(-50%,-50%);
 	width:100%;
-	height: 291px;
+	height: 300px;
 	background-color: rgba(138,81,63,0.8);
 	display: flex;
 	justify-content: center;
@@ -65,7 +64,7 @@ body{
 
 .txt {
     text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: Montserrat;
     margin: 25px;
 	word-break: keep-all;
 	font-weight: 550;
@@ -84,7 +83,7 @@ body{
 
 
 
-.integrantes{
+#integrantes{
 	margin-top: 30px;
 	margin-bottom: 80px;
     padding-top: 50px;
@@ -94,7 +93,10 @@ body{
 	align-items: center;
 	background-color:#7c564c;
 	border-top: 4px solid #dc7e6a;
+	border-bottom: 4px solid #dc7e6a;
+	
 }
+
 
 .int, .int2{
     color: white;
@@ -119,7 +121,7 @@ body{
 }
 
 .lineA {
-	margin-top: 9px;
+	margin-top:32px;
     width: 100px;
     position: relative;
     height: 5px;
@@ -142,6 +144,5 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-bottom: 4px solid #dc7e6a;
 	
 }

@@ -18,7 +18,7 @@
     flex-direction: column;
     padding: 10px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.445);
+    /* background-color: rgba(0, 0, 0, 0.445); */
     right: 100px;
     align-items: center;
     justify-content: center;
@@ -28,8 +28,27 @@
 
 .sobre_nos_titulo {
     letter-spacing: 1px;
+    font-family: Megrim;
+    margin-bottom: 5px
 
 }
+
+.sobre_nos_txt{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight:280 ;
+    background-color: rgba(138,81,63,0.7);
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow:    0px 0px 25px 0px rgba(0, 0, 0, 0.77);
+    box-shadow:         0px 0px 25px 0px rgba(0, 0, 0, 0.77);
+    border: 3px solid #47322d;
+    padding: 15px;
+    margin: 0 0 25px 10px;
+    font-family: Montserrat;
+}
+
+
+
 
 #descricao_ODS{
     width: 400px;
@@ -51,11 +70,13 @@
 
 #titulo_descricao{
     font-size: 60px;
+    font-family:Megrim;
 }
 #subtitulo_descricao{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 400;
     text-align: left;
+    font-family:Megrim;
 }
 
 #ONU8{
@@ -106,6 +127,7 @@
     width: 380px;
     display: inline;
     
+    
 }
 
 .titulo{
@@ -114,6 +136,7 @@
     height: 70px;
     font-size: 28px;
     justify-items: center;
+    font-family:Megrim;
 } 
 
 .subtitulo{
@@ -122,6 +145,7 @@
     justify-items: center;  
     font-size: 15px;
     height: 60px;
+    font-family:Montserrat;
 }
 
 img{
@@ -132,12 +156,11 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
+    color: #000000;
     height: 350px;  
     width: 550px;
     align-content: center;
     text-align: center;
-    background-color: #47322d;
     
 }
 #formatacao_esquerda{
@@ -145,11 +168,130 @@ img{
     align-self: center;
     justify-content: flex-end;
 }
+
+.visao_titulo {
+    text-align: right;
+    margin-left: 380px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    height: 0px;
+    font-family:Megrim;
+    
+
+}
+
+.visao_hr {
+    margin-top: 4px;
+    margin-bottom: 50px;
+    width: 50px;
+    position: relative;
+    left: 88%;
+    height: 5px;
+    background-color: #47322d;
+    border: none;
+    top: 9%;
+}
+
+.visao_txt {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight:400 ;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 10px;
+    height: 60%;
+    /* border: 1px solid red; */
+    font-family: Montserrat;
+
+    
+    
+}
+
+.valores_titulo {
+    text-align: right;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    height: 0px;
+    font-family:Megrim;
+    
+
+}
+
+.valores_hr {
+    margin-top: 4px;
+    margin-bottom: 50px;
+    width: 50px;
+    position: relative;
+    left: 88%;
+    height: 5px;
+    background-color: #47322d;
+    border: none;
+    top: 9%;
+}
+
+.valores_txt {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight:380 ;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 10px;
+    height: 60%;
+    /* border: 1px solid red; */
+    font-family: Montserrat;
+
+    
+    
+}
+
+
+
+
+
 #formatacao_direita{
     display: flex;
     align-self: center;
     justify-content: flex-start;
 }
+
+.missao_titulo {
+    text-align: left;
+    /* margin-right: 48px; */
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    font-family:Megrim;
+}
+
+.missao_hr {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 50px;
+    position: relative;
+    right: -2%;
+    height: 5px;
+    background-color: #47322d;
+    border: none;
+}
+
+.missao_txt {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight:400 ;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-family: Montserrat;
+
+    
+    
+}
+
+
+
+
+
+
 
 #preceitos img{
     height: 100%;
