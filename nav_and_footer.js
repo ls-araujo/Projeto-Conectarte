@@ -1,6 +1,6 @@
 
         $(document).ready(function(){
             $('#footer').load('../footer.html');
-            $('#nav').load("../nav.html")
+            $('#nav').load("../navebar.html")
         })
 

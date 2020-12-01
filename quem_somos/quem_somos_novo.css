@@ -1,0 +1,219 @@
+
+#sobre_nos_container {
+    background-color: #ccc;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./assets/Materiais-arte.jpg);
+    background-attachment: fixed;
+    border-bottom: 4px solid #dc7e6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre_nos {
+    display: flex;
+    height: 300px;
+    width: 800px;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.445);
+    right: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    text-align: justify;
+}
+
+.sobre_nos_titulo {
+    letter-spacing: 1px;
+
+}
+
+#descricao_ODS{
+    width: 400px;
+    position: relative;
+    height: 400px;
+    display: inline;
+    text-align: justify;
+    padding: 15px;
+    align-self: center;
+}
+
+#objetivos_ONU{
+    height: 620px;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    margin: 50px 0px 50px 0px;
+}
+
+#titulo_descricao{
+    font-size: 60px;
+}
+#subtitulo_descricao{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+}
+
+#ONU8{
+    background-color: #8f1838;
+}
+#ONU10{
+    background-color: #dd1367;
+}
+#ONU12{
+    background-color: #c9992d;
+}
+
+#objs{
+    height: 620px;
+    display: inline;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+
+
+    height: 620px;
+    align-self: center;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.objt{
+    height: 180px;
+    width: 650px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.com_numero{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    height: 140px;
+    width: 500px;
+    color: white;
+}
+.num{
+    font-size: 50px;
+}
+
+.titulo_e_subtitulo_ODS{
+    width: 380px;
+    display: inline;
+    
+}
+
+.titulo{
+    display: flex;
+    width: 380px;
+    height: 70px;
+    font-size: 28px;
+    justify-items: center;
+} 
+
+.subtitulo{
+    display: flex;
+    width: 280px;
+    justify-items: center;  
+    font-size: 15px;
+    height: 60px;
+}
+
+img{
+    height: 100px;
+}
+
+#preceitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    height: 350px;  
+    width: 550px;
+    align-content: center;
+    text-align: center;
+    background-color: #47322d;
+    
+}
+#formatacao_esquerda{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+#formatacao_direita{
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+#preceitos img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.int{
+    color: #47322d;
+    position: relative;
+    top: 30px;
+
+}
+
+#integrantes{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7c5647;
+    margin-top: 50px;
+}
+
+#botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 55px;
+}
+
+.btxt {
+    display: flex;
+    flex-direction: column;
+    background-color: #DC7E6A;
+    height: 70px;
+    width: 240px;
+    font-size: 21px;
+    text-align: center;
+    justify-content: center;
+    color: #47322d;
+        
+}
+.head {
+    margin-top: 5px;
+}
+.bt {
+    align-self: center;
+}
+
+.btn{
+    height: 70px;
+    font-size: 18px;
+    align-content: center;
+    width: 100px;
+    background-color: #8A513F;
+    color: #47322d;
+    outline: none;
+    border: 1px solid #8A513F;
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+
+
+

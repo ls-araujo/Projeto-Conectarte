@@ -130,4 +130,10 @@ nav{
     color: #47322d;
 }
 
+@media(max-width: 576px){
+    h3{
+        display: none;
+    }
+}
+
 
