@@ -29,6 +29,8 @@ body{
 #menu ul li a{
     text-decoration: none;
     color: #8a513f;
+    font-family: Megrim;
+    font-weight: 950;
 }
 
 #menu ul li:hover{
