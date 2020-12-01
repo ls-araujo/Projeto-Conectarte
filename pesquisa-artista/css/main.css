@@ -65,12 +65,7 @@ legend {
     padding: 10px;
 }
 
-
-
-
-
-
-.container-fluid {
+#container_search {
     background-color: #e0ccc5;
     max-width: 90%;
     border-radius: 10px;
@@ -201,3 +196,7 @@ legend {
     }
 
 }
+
+
+
+
