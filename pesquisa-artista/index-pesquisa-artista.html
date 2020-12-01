@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <title>Nossos Artistas</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Nossos Artistas</h1>
+    </div>
+
+    <div class="row">
+        <form class="filtros">
+            <div class="alinha-filtrar-opcoes">
+                <div class="filtrar-opcoes h2">
+                    <fieldset>
+                        <legend>Material:
+                            <select id="materiais" name="material">
+                                <option value="todos">Todos</option>
+                                <option value="madeira">Madeira</option>
+                                <option value="argila">Argila</option>
+                                <option value="pintura">Pintura</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </legend>
+                    </fieldset>
+                </div>
+                <div class="filtrar-opcoes h2">
+                    <fieldset>
+                        <legend>Região:
+                            <select id="regioes" name="regiao">
+                                <option value="todos">Todos</option>
+                                <option value="norte">Norte</option>
+                                <option value="nordeste">Nordeste</option>
+                                <option value="centro-oeste">Centro-Oeste</option>
+                                <option value="sudeste">Sudeste</option>
+                                <option value="sul">Sul</option>
+                            </select>
+                        </legend>
+                    </fieldset>
+                </div>
+            </div>
+
+            <input type="text" id="filtrar-artistas" placeholder="	Pesquise nossos Artistas">
+
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card">
+
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First"
+                                src="img/obras/m1.jpg">
+                            <div class class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av1.svg" alt="">
+                                <h5 class="card-title">Ana Pereira</h5>
+                                <span class="material" hidden>Madeira</span>
+                                <span class="regiao" hidden>Nordeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second"
+                            src="img/obras/ou1.jpg">
+                            
+
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av2.svg" alt="">
+                                <h5 class="card-title">Lucas Cruzeiro</h5>
+                                <span class="material" hidden>Outros</span>
+                                <span class="regiao" hidden>Centro-Oeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Third"
+                                src="img/obras/pt1.jpg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av3.svg" alt="">
+                                <h5 class="card-title">Luciane Silveira</h5>
+                                <span class="material" hidden>Pintura</span>
+                                <span class="regiao" hidden>Sul</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First"
+                                src="img/obras/m2.jpg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av4.png" alt="">
+                                <h5 class="card-title">Maria Junqueira</h5>
+                                <span class="material" hidden>Madeira</span>
+                                <span class="regiao" hidden>Sudeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second"
+                                src="img/obras/ag1.png">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av5.png" alt="">
+                                <h5 class="card-title">Aurélio Silva</h5>
+                                <span class="material" hidden>Argila</span>
+                                <span class="regiao" hidden>Norte</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Third"
+                                src="img/obras/ag2.jpg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av6.png" alt="">
+                                <h5 class="card-title">José Afonso</h5>
+                                <span class="material" hidden>Argila</span>
+                                <span class="regiao" hidden>Norte</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Third"
+                                src="img/obras/m3.jpg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av7.png" alt="">
+                                <h5 class="card-title">Bruno Ferreira</h5>
+                                <span class="material" hidden>Madeira</span>
+                                <span class="regiao" hidden>Centro-Oeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First"
+                                src="img/obras/ou2.webp">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av8.png" alt="">
+                                <h5 class="card-title">Renan Soares</h5>
+                                <span class="material" hidden>Outros</span>
+                                <span class="regiao" hidden>Sudeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second"
+                                src="img/obras/m4.jpg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av9.png" alt="">
+                                <h5 class="card-title">Lucas Almeida</h5>
+                                <span class="material" hidden>Madeira</span>
+                                <span class="regiao" hidden>Sudeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Third"
+                                src="img/obras/pt2.jpg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av10.svg" alt="">
+                                <h5 class="card-title">Tarsila de Almeida</h5>
+                                <span class="material" hidden>Pintura</span>
+                                <span class="regiao" hidden>Nordeste</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First"
+                                src="img/obras/pt3.jpeg">
+                            <div class="card-block">
+
+                                <img class="card-img-bottom" src="./img/avatar/av11.png" alt="">
+                                <h5 class="card-title">Josilaine Canva</h5>
+                                <span class="material" hidden>Pintura</span>
+                                <span class="regiao" hidden></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p></p>
+    </div>
+
+    <script src="js/search.js"></script>
+</body>
+
+</html>

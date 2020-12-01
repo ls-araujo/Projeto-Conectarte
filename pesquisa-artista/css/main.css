@@ -1,0 +1,202 @@
+body {
+    display: block;
+    width: 99%;
+    align-self: 50%;
+    background-color: #f7efec;
+}
+
+.container {
+    text-align: center;
+    color: #647168;
+    border-top: 5px solid #dc7e6a;
+    max-width: 100%;
+}
+
+.titulo {
+    content: '';
+    display: inline-block;
+    height: 100%;
+}
+
+.filtros {
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.alinha-filtrar-opcoes {
+    text-align: left;
+    margin-left: 45px;
+    width: 100%;
+}
+
+.filtrar-opcoes {
+    display: inline-flex;
+    max-width: auto;
+    text-align: left;
+    color: #647168;
+
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.filtrar-opcoes select {
+    background-color: #dc7e6a80;
+    color: #444444;
+    width: 150px;
+    border: px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    -moz-user-select: red;
+}
+
+
+legend {
+    display: inline-flex;
+    font-size: 22px;
+}
+
+#filtrar-artistas {
+    width: 90%;
+    height: 50px;
+    border: 1px solid #dc7e6a80;
+    color: #647168;
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.container-fluid {
+    background-color: #e0ccc5;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.col-md-4 {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+.card {
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: 25px;
+    max-width: 100%;
+
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+    height: 250px;
+}
+
+.card-title {
+    text-align: center;
+    color: #444444;
+    font-size: 1.2em;
+}
+
+.card-img-bottom {
+    height: 100px;
+    width: 100px;
+    background-color: #fafafa;
+    border-radius: 50px;
+
+    margin-top: -50px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    body {
+        padding-left: 10px;
+    }
+
+    .alinha-filtrar-opcoes {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .filtrar-opcoes {
+        width: 90%;
+        margin-right: 0px;
+    }
+
+    .container-fluid {
+        max-width: 100%;
+    }
+
+    .card {
+        max-width: 100%;
+        left: 0px;
+    }
+
+
+    .card-block {
+        height: 50px;
+    }
+
+    .card-title {
+        font-size: 1.6em;
+        letter-spacing: 1px;
+    }
+
+    .card-img-bottom {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 940px) {
+
+    .alinha-filtrar-opcoes {
+        margin-left: 30px;
+    }
+
+
+    .container-fluid {
+        max-width: 90%;
+    }
+
+    .col-md-4 {
+        width: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card {
+        max-width: 100%;
+        left: 0px;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+
+    .card-img-bottom {
+        height: 80px;
+        width: 80px;
+    }
+
+}
