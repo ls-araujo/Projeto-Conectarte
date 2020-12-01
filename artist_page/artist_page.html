@@ -26,96 +26,106 @@
     </div>
     <header><div id="nav"></div></header>
     <main>
-        <div class="infos_artist">
-            <div class="profile">
-                <div class="image_container" >
-                    <img src="../assets/foto_exemplo.jpg" alt="" style="width: 100%;">
-                    <div class="name">
-                        <h2>Artista Silva</h2>
-                    </div>
-                </div>
-                <div class="infos">
-                    
-                    <a class="social_artist" href="#"><img class="icon" src="../assets/facebook logo.png" alt="icone facebook"><p>facebook</p></a>
-                    <a class="social_artist" href="#"><img class="icon" src="../assets/whatsapp logo.png" alt="icone whatsapp"><p>whatsapp</p></a>
-                    <a class="social_artist" href="#"><img class="icon" src="../assets/instagram logo.png" alt="icone instagram"><p>instagrma</p></a>
-        
-                </div>
-            </div>
-            <div class="perfil_resume">
-                <div class="resume">
-                    <p class="title">Quem sou eu</p>
-                    <p class="body_text"> bibendum litora vel justo bibendum accumsan, diam lobortis iaculis nullam
-                        aliquam magna. sagittis leo maecenas etiam fusce lorem interdum id dictumst feugiat nulla
-                        consequat porttitor quisque, ultrices lacinia lacus vitae netus etiam felis taciti pharetra
-                        tristique ac. proin donec risus posuere class adipiscing pulvinar, faucibus in mauris elit
-                        curabitur, torquent mi velit est pulvinar. vehicula vitae nullam commodo metus sollicitudin
-                        molestie mattis platea turpis, pharetra tellus potenti porttitor rhoncus a sagittis condimentum,
-                        sodales dapibus porttitor congue ipsum mi dui ut. </p>
-                </div>
-                <div class="events">
-                    <p class="title">Eventos</p>
-                    <p class="body_text">honcus diam lobortis iaculis nullam aliquam magna. vehicula vitae nullam
-                        commodo metus sollicitudin molestie mattis platea turpis, pharetra tellus potenti porttitor
-                        rhoncus a sagittis condimentum, sodales dapibus porttitor congue ipsum mi dui ut.</p>
-                </div>
-                <div class="find">
-                    <p class="title">Contato</p>
-                    <p class="body_text">cus diam lobortis iaculis nullam aliquam magna. vehicula vitae nullam commodo
-                        metus sollicitudin molestie mattis platea turpis, pharetra</p>
-                </div>
-                <div class="art_infos">
-                    <div class="info">
-                        <div class="text">
-                            <p>Tipo de arte</p>
-                        </div>
-                        <div class="art">
-                            <p>Tipo de arte</p>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <div class="text">
-                            <p>Material utilizado</p>
-                        </div>
-                        <div class="art">
-                            <p>Material utilizado</p>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <div class="text">
-                            <p>Tamanho</p>
-                        </div>
-                        <div class="art">
-                            <p>Tamanho</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
 
         <div class="container">
             <div class="row">
+                <div class="col-md-4">
+                    <div class="profile">
+                        <div class="image_container" >
+                            <img src="../assets/foto_exemplo.jpg" alt="" style="width: 100%;">
+                            <div class="name">
+                                <h2>Artista Silva</h2>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            
+                            <a class="social_artist" href="#"><img class="icon" src="./imagen_exemples/facebook.png" alt="icone facebook"><p>facebook</p></a>
+                            <a class="social_artist" href="#"><img class="icon" src="./imagen_exemples/whatsapp.png" alt="icone whatsapp"><p>whatsapp</p></a>
+                            <a class="social_artist" href="#"><img class="icon" src="./imagen_exemples/instagram.png" alt="icone instagram"><p>instagrma</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="resume_container">
+                        <div class="resume">
+                            <p class="title">Quem sou eu</p>
+                            <p class="body_text"> bibendum litora vel justo bibendum accumsan, diam lobortis iaculis nullam
+                                aliquam magna. sagittis leo maecenas etiam fusce lorem interdum id dictumst feugiat nulla
+                                consequat porttitoa turpis, pharetra tellus potenti porttitor rhoncus a sagittis condimentum,
+                                sodales dapibus porttitor congue ipsumor quisque, ultrices lacinia lacus vitae netus etiam felis taciti pharetra
+                                tristique ac. pr mi dui ut. </p>
+                        </div>
+                        <div class="events">
+                            <p class="title">Eventos</p>
+                            <p class="body_text">honcus diam lobortis iaculis nullam aliquam magna. vehicula vitae nullam
+                                commodo metus sollicitudin molestie mattis platea turpis, pharetra tellus potenti porttitor
+                                rhoncus a sagittis condimentum, sodales dapibus porttitor congue ipsum mi dui ut.</p>
+                        </div>
+                        <div class="find">
+                            <p class="title">Contato</p>
+                            <p class="body_text">cus diam lobortis iaculis nullam aliquam magna. vehicula vitae nullam commodo
+                                metus sollicitudin molestie mattis platea turpis, pharetra</p>
+                        </div>
+                        <div class="art_infos">
+                            <div class="info">
+                                <div class="text">
+                                    <p>Tipo de arte</p>
+                                </div>
+                                <select id="cbPais" class="art">
+                                    <option>Pintura</option>
+                                    <option>Escultura</option>
+                                    <option>Ceramica</option>
+                                    <option>Bordado</option>
+                                </select>
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    <p>Material utilizado</p>
+                                </div>
+                                <select id="cbPais" class="art">
+                                    <option>Argila</option>
+                                    <option>Ferro</option>
+                                    <option>Papel</option>
+                                </select>
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    <p>Tamanho</p>
+                                </div>
+                                <select id="cbPais" class="art">
+                                    <option>Pequeno</option>
+                                    <option>Medio</option>
+                                    <option>Grande</option>
+                                </select>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>        
+        </div>
+        
+            <div class="row" id="galeria" >
                 <div class="card_img">
-                    <img src="../assets/papel de parede.jpg" class="small_img"alt="">
+                    <img src="./imagen_exemples/1.jpg" class="small_img"alt="">
                 </div>
                 <div class="card_img">
-                    <img src="../assets/papel de parede.jpg" class="small_img"alt="">
+                    <img src="./imagen_exemples/2.jpg" class="small_img"alt="">
                 </div>
                 <div class="card_img">
-                    <img src="../assets/papel de parede.jpg" class="small_img"alt="">
+                    <img src="./imagen_exemples/3.jpg" class="small_img"alt="">
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="galeria" >
                     <div class="card_img">
-                        <img src="../assets/papel de parede.jpg" class="small_img"alt="">
+                        <img src="./imagen_exemples/4.jpg" class="small_img"alt="">
                     </div>
                     <div class="card_img">
-                        <img src="../assets/papel de parede.jpg" class="small_img"alt="">
+                        <img src="./imagen_exemples/5.jpg" class="small_img"alt="">
                     </div>
                     <div class="card_img">
-                        <img src="../assets/papel de parede.jpg" class="small_img"alt="">
+                        <img src="./imagen_exemples/6.jpg" class="small_img"alt="">
                     </div>
                 </div>
         </div>
