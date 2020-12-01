@@ -5,7 +5,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.infos_artist{
+.container{
+    margin-top: 15px;
+}
+
+#infos_artist{
     display: flex;
     justify-content: center;
     height: 450px;
@@ -15,11 +19,10 @@
 }
 
 .profile{
-    width: 400px;
-    margin: auto;
-    margin-left: 120px;
+    width: 300px;
+    height: 350px;
     background: #f7efec;
-    height: 400px;
+    
 }
 
 
@@ -30,18 +33,25 @@
 .infos{
     color: #da9255;;
     margin-right: 16px;
+    width: 300px;
     padding: 20px;
     border-bottom: 4px solid;
 }
 
 .social_artist{
     display: flex;
+    width: 300px;
     align-items: center;
+    padding: 5px;
 }
 
 a p{
     padding-left: 10px;
     padding-top: 5px;
+}
+
+a{
+    width: 10px;
 }
 
 .name{
@@ -56,10 +66,8 @@ h2{
 
 
 .icon{
-    max-height: 38px;
-    max-width: 100%;
-    height: auto;
-    width: auto; 
+    height: 24px;
+    width: auto;
 }
 
 .perfil_resume{
@@ -72,7 +80,7 @@ h2{
 }
 
 .resume{
-    width:55vw;
+    width:50vw;
     height: 150px;
     margin: auto;
     display: flex;
@@ -95,13 +103,13 @@ h2{
     font-size: 18px;
     font-weight: 450;
     color: #47322d;
-    background-color: #da9255;
+    background-color: #da9355;
     border-radius: 2px;
     padding-left: 5px;
 }
 
 .events{
-    width:55vw;
+    width:50vw;
     margin: auto;
     height: auto;
     display: flex;
@@ -111,7 +119,7 @@ h2{
 }
 
 .find{
-    width:55vw;
+    width:50vw;
     margin: auto;
     height: auto;
     display: flex;
@@ -122,10 +130,25 @@ h2{
 
 .art_infos{
     height: 50px;
-    width: 55vw;
+    width: 50vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.col-md-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #e0ccc5;
+}
+
+.col-md-8{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0ccc5;
 }
 
 .art{
@@ -153,7 +176,7 @@ h2{
     flex-direction: column;
     font-size: 14px;
     padding-bottom: 3px;
-    color: white;
+    color: #47322d;
     font-weight: 420;
     border-bottom: white;
 }
@@ -182,7 +205,7 @@ h4{
     transform: scale(1.1);
 }
 
-.row{
+#galeria{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -227,7 +250,7 @@ h4{
     transform: scale(1.1);
 }
 
-.row{
+#galeria{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -277,4 +300,70 @@ h4{
     visibility: visible;
     opacity: 1;
 }
+
+
+@media screen and (max-width: 700px){
+
+    .resume_container{
+        width: 420px;
+        height: 600px;
+        position: relative;
+        bottom: 25px;
+        padding: 0;
+    }
+    .events{
+        width: 400px;
+        height: 170px;
+    }
+    .find{
+        width: 400px;
+        height: 120px;
+    }
+    .resume{
+        width: 400px;
+        height: 210px;
+    }
+    .col-md-8{
+        height: 620px;
+    }
+    .col-md-4{
+        height: 420px;
+     }
+    .art_infos{
+        position: relative;
+        left: 9px;
+        width: 400px;
+        justify-self: center;
+    }
+
+    #logo_container{
+        position: relative;
+        right: 60px;
+    }
+
+
+
+}
+
+@media (min-width: 700px) and (max-width: 992px){
+    .events{
+        width: 400px;
+        height: 170px;
+    }
+    .find{
+        width: 400px;
+        height: 120px;
+    }
+    .resume{
+        width: 400px;
+        height: 210px;
+    }
+    .col-md-8{
+        height: 620px;
+    }
+    .col-md-4{
+        height: 620px;
+    }
+
+ }
 
