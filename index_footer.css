@@ -8,12 +8,10 @@
 }
 
 footer {
-    border-top: 2px solid rgb(220, 126, 106);
+    border-top: 2px solid rgb(220, 127, 106);
 }
 
-
-
-h3{
+#title_social{
     padding: 20px;
 }
 
@@ -22,7 +20,7 @@ h3{
     justify-content: center;
     align-items: center;
     margin:auto;
-    background-color: #dc7e6a;
+    background-color: #dc7f6abe;
     font-family:Arial;
     color:#47322d; 
 }
@@ -38,13 +36,23 @@ h3{
     justify-content: space-around;
 }
 
-.site_map{
+.site_map_container{
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     text-align: justify;
-    background-color: #e0ccc5;
+    background-color: #e0ccc528;
+    color: #47322d;
+}
+
+.site_map{
+    padding: 20px;
+    width: 750px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
     color: #47322d;
 }
 
@@ -63,7 +71,7 @@ a{
     color: white;
     font-size: 85%;
     text-align: center;
-    background-color: #8a513f;
+    background-color: #8a513f93;
     color: #47322d;
 }
 
@@ -102,7 +110,7 @@ nav{
     justify-content: center;
     align-items: center;
     font-weight: 400;
-    background-color: #e0ccc5;
+    background-color: #e0ccc528;
 }
 
 .logo img{
@@ -122,7 +130,7 @@ nav{
     justify-content: center;
     font-weight: 500;
     padding: 7px;
-    background-color: #e0ccc5;
+    background-color: #e0ccc528;
 }
 
 .conec{
