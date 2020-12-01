@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.Register {
+    max-width: 750px;
+    width: 100%;
+    background: #8a513f;
+    margin: 20px auto ;
+    padding: 30px;
+    box-shadow: 0px 9px 27px -4px rgba(0,0,0,0.53);
+    margin-bottom: 100px;
+}
+
+.Register .title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Megrim;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.Register .form {
+    width: 100%;
+
+}
+
+.Register .form .input-field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Register .form .input-field label {
+    width: 200px;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 14px;
+
+}
+
+.Register .form .input-field .input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #47322d;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.Register .form .input-field .custom-select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+
+
+}
+
+.Register .form .input-field .custom-select select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #47322d;
+    width: 62%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.Register .form .input-field .custom-select:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 220px;
+    border: 8px solid;
+    border-color: #47322d transparent transparent transparent;
+    pointer-events: none;
+}
+
+.Register .form .input-field .input:focus, .Register .form .input-field select:focus {
+    border: 1px solid #47322d;
+
+}
+
+.Register .form .input-field p {
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+.Register .form .input-field .check {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+
+}
+
+.Register .form .input-field .check input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+}
+
+.Register .form .input-field .check .checkmark {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #47322d;
+    display: block;
+    position: relative;
+    
+        
+}
+
+.Register .form .input-field .check .checkmark:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 9px;
+    height: 5px;
+    border: 2px solid ;
+    border-color: transparent transparent #ffffff #ffffff;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+.Register .form .input-field .check input[type="checkbox"]:checked ~ .checkmark{
+    background: #47322d;
+}
+
+.Register .form .input-field .check input[type="checkbox"]:checked ~ .checkmark:before {
+    display: block;
+}
+
+
+.Register .form .input-field .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #47322d;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.Register .form .input-field:last-child {
+    margin-bottom: 0;
+
+}
+
+.Register .form .input-field .btn:hover {
+    background: #684a43;
+
+}
+
+@media (max-width: 420px){
+    .Register .form .input-field {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Register .form .input-field label {
+        margin-bottom: 5px;
+    }
+    .Register .form .input-field.terms {
+        flex-direction: row;
+    }
+}
