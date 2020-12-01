@@ -8,7 +8,6 @@ body {
 .container {
     text-align: center;
     color: #647168;
-    border-top: 5px solid #dc7e6a;
     max-width: 100%;
 }
 
@@ -35,7 +34,7 @@ body {
     max-width: auto;
     text-align: left;
     color: #647168;
-
+    
     margin-right: 50px;
     padding-top: 10px;
 }
