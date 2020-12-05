@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+#menu {
+    font-size: 16pt;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+#menu ul li {
+    padding: 20px;
+    flex-grow: 1;
+    transition: .2s linear;
+    border: solid 1px transparent;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #8a513f;
+    font-family: Megrim;
+    font-weight: 950;
+}
+
+#menu ul li:hover {
+    border-bottom: 2.5px solid #8a513f;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#logo_container {
+    background-color: #fff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.dropbtn {
+    background-color: #bc8f8f;
+
+    cursor: pointer;
+    padding: 19px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Megrim;
+    font-weight: 950;
+    font-size: 22px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bc8f8f60;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dropdown-content a {
+    color: #8a513f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;    
+}
+
+
+
+
+@media(max-width: 575px) {
+
+    #menu ul {
+        display: block;
+    }
+
+    #nav {
+        height: 450px;
+        position: relative;
+        top: 180px;
+        margin-bottom: 10px;
+    }
+
+    .dropbtn {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .dropdown-content {
+        min-width: 300px;
+        text-align: center;
+        margin-left: -120px;      
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 700px) {
+
+    #logo_container {
+        background-color: #fff;
+        margin-left: 40%;
+    }
+    
+    #menu ul {
+        display: block;
+        margin-left: 42%;
+    }
+
+    .dropbtn {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .dropdown-content {
+        min-width: 300px;
+        text-align: center;
+        margin-left: -120px;      
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 960px) {
+
+    * {
+        font-size: 18px;
+    }
+
+    .dropdown-content {
+        min-width: 120px;
+        margin-left: -30px;      
+    }
+
+}
