@@ -1,0 +1,23 @@
+.container {
+  max-width: 960px;
+}
+
+.lh-condensed { line-height: 1.25; }
+
+
+#container-config {
+  margin-left: 180px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.btn {
+
+background-color:#8a513f;
+border-color: #8a513f;
+}
+
+.btn:hover {
+  background-color: #a5614c;
+  border-color: #a5614c;
+}

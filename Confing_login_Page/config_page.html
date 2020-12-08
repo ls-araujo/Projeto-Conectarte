@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="../index_footer.css">
+    <link rel="stylesheet" type="text/css" href="../index_navbar.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap-grid.min.css" type="text/css">
+    <script type="text/javascript" src="../bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../bootstrap-4.5.3-dist/js/jquery-3.5.1.min.js"></script>
+   
+   
+    <title>Checkout example · Bootstrap</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+<link href="/Confing_login_Page/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body>
+    <header><div id="nav"></div></header>
+
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="../assets/foto perfil.jpg" alt="" width="78" height="78">
+    <h2 style="font-family: Megrim; font-weight: 900;">Configurações da conta</h2>
+  </div>
+
+
+    <div class="col-md-8 order-md-1" id="container-config">
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName" style="font-family: Montserrat;">Nome</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback" style="font-family: Montserrat;">
+              Requer Nome válido
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName" style="font-family: Montserrat;">Sobrenome</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback" style="font-family: Montserrat;">
+              Requer Sobrenome válido
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" style="font-family: Montserrat;">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="voce@exemplo.com">
+          <div class="invalid-feedback" style="font-family: Montserrat;">
+            Por favor um Email válido
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address" style="font-family: Montserrat;">Endereço</label>
+          <input type="text" class="form-control" id="address" placeholder="R/Av 123 n123" required>
+          <div class="invalid-feedback" style="font-family: Montserrat;">
+            Por favor um Enderçeo válido
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address2" style="font-family: Montserrat;">Complemento</label>
+          <input type="text" class="form-control" id="address2" placeholder="Apartamento">
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country" style="font-family: Montserrat;">Estado</label>
+            <select class="custom-select d-block w-100" id="country" required>
+               <option value="">Escolha</option>
+               <option value="Acre">Acre</option>
+               <option value="Alagoas">Alagoas</option>
+               <option value="Amapa">Amapá</option>
+               <option value="Amazonas">Amazonas</option>
+               <option value="Bahia">Bahia</option>
+               <option value="Ceara">Ceará</option>
+               <option value="espirito-santo">Espírito Santo</option>
+               <option value="Goias">Goiás</option>
+               <option value="Maranhao">Maranhão</option>
+               <option value="Mato-Grosso">Mato Grosso</option>
+               <option value="Mato-Grosso-Sul">Mato Grosso do Sul</option>
+               <option value="Minas-Gerais">Minas Gerais</option>
+               <option value="Para">Pará</option>
+               <option value="Paraiba">Paraíba</option>
+               <option value="Parana">Paraná</option>
+               <option value="Pernambuco">Pernambuco</option>
+               <option value="Piaui">Piauí</option>
+               <option value="Rio-Janeiro">Rio de Janeiro</option>
+               <option value="Rio-Grande-norte">Rio Grande do Norte</option>
+               <option value="Rio-Grande-sul">Rio Grande do Sul</option>
+               <option value="Rondonia">Rondônia</option>
+               <option value="Roraima">Roraima</option>
+               <option value="Santa-Catarina">Santa Catarina</option>
+               <option value="Sao-Paulo">São Paulo</option>
+               <option value="Sergipe">Sergipe</option>
+               <option value="Tocantins">Tocantins</option>
+               <option value="Distrito-Federal">Distrito Federal</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state" style="font-family: Montserrat;">Cidade</label>
+            <input type="text" class="form-control" id="address2" placeholder="Cidade">
+            <div class="invalid-feedback" style="font-family: Montserrat;" >
+              Por favor coloque uma cidade válida
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip" style="font-family: Montserrat;">CEP</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required>
+            <div class="invalid-feedback">
+              CEP necessário
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <h4 class="mb-3"style="font-family: Megrim;">SENHA</h4>
+
+        <div class="d-block my-3">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name" style="font-family: Montserrat;">Senha</label>
+            <input type="password" class="form-control" id="cc-name" placeholder="" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name" style="font-family: Montserrat;">Nova Senha</label>
+            <input type="password" class="form-control" id="cc-name" placeholder="" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name" style="font-family: Montserrat;">Repetir Nova Senha</label>
+            <input type="password" class="form-control" id="cc-name" placeholder="" required>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit" style="font-family: Montserrat;">Salvar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer><div id="footer"></div></footer>
+
+<script src="../nav_and_footer.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="form-validation.js"></script></body>
+</html>
