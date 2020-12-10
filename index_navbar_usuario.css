@@ -55,9 +55,9 @@ body {
 
 
 
-.dropbtn {
+#dropbtn {
     background-color: #bc8f8f;
-
+    color: #5e362a  ;
     cursor: pointer;
     padding: 19px;
     margin-left: 50px;

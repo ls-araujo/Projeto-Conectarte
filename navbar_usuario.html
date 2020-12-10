@@ -20,6 +20,43 @@
 
 
     <title>Document</title>
+
+    <style>
+        .dropdown a {
+            position: relative;
+            display: inline-block;
+            font-family: Megrim;
+            font-weight: 950;
+            font-size: 22px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #bc8f8f60;
+            min-width: 160px;
+            z-index: 1;
+            font-size: 20px;
+        }
+
+        .dropdown-content a {
+            color: #8a513f;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid #fff;
+        }
+
+        .dropdown-content a:hover {
+    background-color: #b48b8b60;
+        }
+
+        .dropdown:hover .dropdown-content {
+    display: block;    
+        }
+
+
+    </style>
 </head>
 
 <body>
@@ -41,10 +78,10 @@
 
                         <div class="dropdown">
                             
-                            <i class="dropbtn fa fa-user"></i>
+                            <i class="fa fa-user" id="dropbtn"></i>
                             <div class="dropdown-content">
                                 <a href="#">Perfil</a>
-                                <a href="#">Configurações</a>
+                                <a href="/Confing_login_Page/config_page.html">Configurações</a>
                                 <a href="#">Sair</a>
                             </div>
                         </div>
